@@ -2,6 +2,7 @@
 
 You can search railway routes with alfred.
 
+The example below will show routes from Tokyo to Shinjuku.
 ![capture](https://raw.github.com/shibu-t/ekispert-workflow/master/screenshots/capture.png)
 
 ## Main features:
