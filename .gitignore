@@ -1,0 +1,5 @@
+.ruby-version
+**/*.swp
+**/*.DS_Store
+*.DS_Store
+workflow/lib/Endpoint.rb
