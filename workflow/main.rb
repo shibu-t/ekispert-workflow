@@ -13,9 +13,6 @@ require "lib/Endpoint"
 Alfred.with_friendly_error do |alfred|
   fb = alfred.feedback
 
-  # add a file feedback
-  fb.add_file_item(File.expand_path "~/Applications/")
-
   if (!ARGV[0].nil?)
       from = ARGV[0]
       to = ARGV[1]
@@ -28,25 +25,10 @@ Alfred.with_friendly_error do |alfred|
       fb.add_item({
         :uid      => ""                     ,
         :title    => query          ,
-        :subtitle => "feedback item"        ,
+        :subtitle => "Enter and Go to site"        ,
         :arg      =>  url,
         :valid    => "yes"                  ,
       })
-  end
-  
-  # add an feedback to test rescue feedback
-  fb.add_item({
-    :uid          => ""                     ,
-    :title        => "Rescue Feedback Test" ,
-    :subtitle     => "rescue feedback item" ,
-    :arg          => ""                     ,
-    :autocomplete => "failed"               ,
-    :valid        => "no"                   ,
-  })
-
-  if ARGV[0].eql? "failed"
-    alfred.with_rescue_feedback = true
-    raise Alfred::NoBundleIDError, "Wrong Bundle ID Test!"
   end
 
   puts fb.to_xml(ARGV)
