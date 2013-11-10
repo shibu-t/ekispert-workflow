@@ -16,6 +16,6 @@ file](https://github.com/shibu-t/ekispert-workflow/raw/master/Ekispert%20Workflo
 
 
 ## Thanks
-To [Val Laboratory](http://www.val.co.jp/) for making the [ekispert API](http://webservice.ekispert.com/)
-To [Zhao Cai](https://github.com/zhaocai) for making the [Alfred 2 Workflow Ruby Template](https://github.com/zhaocai/alfred2-ruby-template).
+*To [Val Laboratory](http://www.val.co.jp/) for making the [ekispert API](http://webservice.ekispert.com/)
+*To [Zhao Cai](https://github.com/zhaocai) for making the [Alfred 2 Workflow Ruby Template](https://github.com/zhaocai/alfred2-ruby-template).
 
