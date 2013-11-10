@@ -1,12 +1,9 @@
 # Ekispert Workflow
-
-You can search railway routes with alfred.
+This workflow will allow you to search railway routes. If you input two stations and push enter, you can go to ekispert site soon.
 
 The example below will show routes from Tokyo to Shinjuku.
 ![capture](https://raw.github.com/shibu-t/ekispert-workflow/master/screenshots/capture.png)
 
-## Main features:
-This workflow will allow you to search railway routes. If you input two stations and push enter, you can go to ekispert site soon.
 
 ## Installation & Setup
 1. Download the latest [workflow
